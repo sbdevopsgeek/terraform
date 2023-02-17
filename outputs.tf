@@ -1,6 +1,6 @@
 output user_record {
 
-    value = "xyz"
+    value = local_file.user_records.id
     description = "User record details"
-    
+
 }
