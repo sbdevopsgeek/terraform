@@ -4,3 +4,9 @@ variable "user_name" {
     description = "value"
   
 }
+
+variable "user_age" {
+  default = "30"
+  type = number
+  description = "User age details"
+}
